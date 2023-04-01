@@ -49,6 +49,8 @@ namespace AngleSharp.Css.Dom
 
         public String NamespaceUri => _host.NamespaceUri;
 
+        public string GivenNamespaceUri => _host.GivenNamespaceUri;
+
         public INamedNodeMap Attributes => _host.Attributes;
 
         public ITokenList ClassList => _host.ClassList;
@@ -132,7 +134,6 @@ namespace AngleSharp.Css.Dom
         public IElement PreviousElementSibling => _host.PreviousElementSibling;
 
         public NodeFlags Flags => _host.Flags;
-
 
         #endregion
 

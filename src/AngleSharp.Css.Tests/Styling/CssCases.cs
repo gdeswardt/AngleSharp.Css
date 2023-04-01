@@ -143,6 +143,7 @@ namespace AngleSharp.Css.Tests.Styling
 }");
             Assert.AreEqual(2, sheet.Rules.Length);
 
+            var check = ((ICssStyleRule) sheet.Rules[0]).SelectorText;
             Assert.AreEqual(@".foo:matches(.bar, .baz), .foo:matches(.bar, .baz), .foo:matches(.bar, .baz), .foo:matches(.bar, .baz)", ((ICssStyleRule)sheet.Rules[0]).SelectorText);
             Assert.AreEqual(@"value", ((ICssStyleRule)sheet.Rules[0]).Style["prop"]);
 

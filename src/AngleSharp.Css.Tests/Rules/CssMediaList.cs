@@ -187,7 +187,7 @@
             Assert.AreEqual(1, sheet.Rules.Length);
             Assert.AreEqual(CssRuleType.Media, sheet.Rules[0].Type);
             var media = sheet.Rules[0] as ICssMediaRule;
-            Assert.AreEqual("not all", media.ConditionText);
+            Assert.AreEqual("all", media.ConditionText);
             Assert.AreEqual(1, media.Rules.Length);
         }
 
