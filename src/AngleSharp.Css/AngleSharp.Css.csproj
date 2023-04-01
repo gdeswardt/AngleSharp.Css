@@ -21,7 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="AngleSharp" Version="0.17.0" />
+    <ProjectReference Include="..\..\..\angle-sharp\src\AngleSharp\AngleSharp.Core.csproj" />
   </ItemGroup>
 
   <PropertyGroup Condition=" '$(OS)' == 'Windows_NT' ">

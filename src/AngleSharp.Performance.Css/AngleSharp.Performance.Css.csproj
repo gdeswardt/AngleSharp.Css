@@ -12,6 +12,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\..\angle-sharp\src\AngleSharp\AngleSharp.Core.csproj" />
     <ProjectReference Include="..\AngleSharp.Performance.Common\AngleSharp.Performance.Common.csproj" />
     <ProjectReference Include="..\AngleSharp.Performance.Utilities\AngleSharp.Performance.Utilities.csproj" />
     <ProjectReference Include="..\AngleSharp.Css\AngleSharp.Css.csproj">
@@ -21,7 +22,6 @@
 
   <ItemGroup>
     <PackageReference Include="Alba.CsCss" version="1.0.1.0" />
-    <PackageReference Include="AngleSharp" Version="0.17.0" />
     <PackageReference Include="ExCSS" version="2.0.6" />
   </ItemGroup>
 </Project>

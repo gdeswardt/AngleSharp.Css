@@ -49,6 +49,8 @@ namespace AngleSharp.Css.Dom
 
         public String NamespaceUri => _host.NamespaceUri;
 
+        public string GivenNamespaceUri => _host.GivenNamespaceUri;
+
         public INamedNodeMap Attributes => _host.Attributes;
 
         public ITokenList ClassList => _host.ClassList;
